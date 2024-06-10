@@ -3,18 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SHOLEH</title>
+<title>hehe</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <style>
-    .big-text {
-        text-align: center;
-        font-size: 36px;
-        font-weight: bold;
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #000000;
+    }
+
+    @keyframes rainbow {
+        0% { color: #e91e63; }
+        16.666% { color: #9c27b0; }
+        33.333% { color: #2196f3; }
+        50% { color: #4caf50; }
+        66.666% { color: #ffeb3b; }
+        83.333% { color: #ff9800; }
+        100% { color: #f44336; }
+    }
+
+    .rainbow-text {
+        animation: rainbow 4s infinite;
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
     }
 </style>
 </head>
 <body>
-    <div class="big-text">
-        HALO SHOLEH
+    <div class="rainbow-text">
+        SHOLEH
     </div>
 </body>
 </html>
